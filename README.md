@@ -1,3 +1,43 @@
+## Descripción de la aplicación
+
+Esta aplicación de línea de comandos permite a los usuarios consultar información de platos típicos de Colombia mediante el uso de una API pública.
+
+El sistema funciona como cliente que envía solicitudes a la API y muestra los resultados al usuario.
+
+## Arquitectura de la aplicación
+
+Usuario → Programa Python → API Colombia → Respuesta (JSON)
+
+1. El usuario ingresa un número
+2. El programa envía una solicitud a la API
+3. La API responde con datos en JSON
+4. El programa procesa la información
+5. Se muestra el resultado en pantalla
+
+## Uso de la API
+
+Se utiliza la API pública de Colombia para obtener información de los platos típicos.
+
+Endpoint utilizado:
+https://api-colombia.com/api/v1/TypicalDish/{id}
+
+La API responde en formato JSON, el cual es procesado por el programa.
+
+## Diagrama de flujo
+
+[ Usuario ]
+     ↓
+[ Programa Python ]
+     ↓
+[ API Colombia ]
+     ↓
+[ Datos JSON ]
+     ↓
+[ Salida en pantalla ]
+
+## Giovanni Ospina Osorio
+
+
 # Instructions
 Now you have the opportunity to create a menu of typical dishes from our country! Your menu can work however you want.
 
